@@ -1,0 +1,74 @@
+name: todoapp
+description: "Tasky — organize your tasks and boost productivity."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  animate_gradient: ^0.0.3
+  animations: ^2.0.11 
+  flex_color_picker: ^3.7.1
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+  page_transition: ^2.2.1
+  widget_and_text_animator: ^1.1.5
+  light_dark_theme_toggle: ^1.1.2
+  google_fonts: ^8.0.0
+  blobs: ^2.0.0
+  lottie: ^3.3.1
+  shared_preferences: ^2.5.3
+  google_nav_bar: ^5.0.7
+  draggable_home: ^1.0.5
+  get: ^4.7.2
+  fluttertoast: ^8.2.12
+  iconify_flutter_plus: ^1.0.4
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+  image_path: assets/logo.png
+  adaptive_icon_background: "#FC579D"
+  adaptive_icon_foreground: assets/logo.png
+
+flutter_native_splash:
+  color: "#FC579D"
+  image: assets/logo.png
+  android: true
+  ios: true
+  web: true
+  android_12:
+    color: "#FC579D"
+    image: assets/logo.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/svg/
+    - assets/lotties/
+    - assets/avatars/
+    - assets/logo.png
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          weight: 400
+          style: italic

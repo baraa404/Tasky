@@ -50,7 +50,7 @@ Welcome screens
 
 ## Demo
 
-[Watch the demo video](showcase/video.mp4)
+![App Demo](showcase/video.gif)
 
 ## Screenshots
 

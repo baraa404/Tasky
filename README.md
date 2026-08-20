@@ -14,7 +14,6 @@
   <img alt="Dart" src="https://img.shields.io/badge/Dart-3.8-0175C2?style=flat-square&logo=dart&logoColor=white" />
   <img alt="Material3" src="https://img.shields.io/badge/Material-3-FC579D?style=flat-square" />
   <img alt="Storage" src="https://img.shields.io/badge/Storage-shared__preferences-purple?style=flat-square" />
-  <img alt="Android" src="https://img.shields.io/badge/Android-APK-3DDC84?style=flat-square&logo=android&logoColor=white" />
 </p>
 
 ---
@@ -115,7 +114,6 @@ lib/
 
 assets/                       # logo, avatars, lotties, Poppins, SVGs
 showcase/                     # screenshots + demo video
-apk/Tasky.apk                 # optional local release build (not in git)
 ```
 
 ## Tech stack
@@ -142,14 +140,6 @@ git clone https://github.com/baraa404/Tasky.git
 cd Tasky
 flutter pub get
 flutter run
-```
-
-### Build release APK
-
-```bash
-flutter build apk --release
-# output: build/app/outputs/flutter-apk/app-release.apk
-mkdir -p apk && cp build/app/outputs/flutter-apk/app-release.apk apk/Tasky.apk
 ```
 
 ### Icon & splash

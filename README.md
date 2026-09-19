@@ -1,8 +1,6 @@
 # Tasky
 
-<div align="center">
-  **English** · **[العربية](README.ar.md)**
-</div>
+**English** · **[العربية](README.ar.md)**
 
 <p align="center">
   <img src="assets/logo.png" alt="Tasky" width="128" />
